@@ -1,0 +1,18 @@
+
+============================================================
+Report generated at: 2025-04-29 13:04:15
+System Type: Linux
+============================================================
+
+=== SYSTEM NETWORK INFORMATION ===
+MAC Address    : e0:c2:64:d9:e7:d4
+Computer Name  : sdragon-Lenovo-V14-G3-IAP
+IP Address     : 192.168.254.154
+Default Gateway: 192.168.254.79
+
+=== CONNECTED DEVICES ===
+IP              Hostname                  Status    
+--------------------------------------------------
+192.168.254.79  _gateway                  Active    
+192.168.254.154 sdragon-Lenovo-V14-G3-IAP Active    
+

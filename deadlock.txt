@@ -1,0 +1,33 @@
+# Jean René MUNYESHYAKA
+
+
+This script simulates a deadlock condition on a network device by creating a situation where two processes compete for the same resources in a way that causes them to block each other indefinitely.
+
+Important Note: This script is for educational purposes only. Creating deadlocks on production systems can cause service disruptions and should only be done in controlled test environments with proper authorization.
+
+
+How This Script Works:
+
+    It creates two threads that compete for two locks (lock1 and lock2) in opposite orders.
+
+    Each thread attempts to make a network connection to the target device while holding one lock and trying to acquire the other.
+
+    This creates the classic deadlock condition where:
+
+        Thread1 holds lock1 and waits for lock2
+
+        Thread2 holds lock2 and waits for lock1
+
+    The script also attempts network connections to simulate resource contention on the target device.
+
+Important Warnings:
+
+    This script is for educational purposes only.
+
+    Running this against systems without permission may be illegal.
+
+    Deadlocks can cause service disruptions.
+
+    Real network device deadlocks require specific conditions that vary by device and software.
+
+For actual deadlock testing on network devices, you would need device-specific knowledge and typically use vendor-provided testing tools in a lab environment.
